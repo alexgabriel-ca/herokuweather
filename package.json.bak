@@ -1,0 +1,15 @@
+{
+  "name": "node_web_server", "version": "1.0.0", "keywords": [
+    "util", "functional", "server", "client", "browser"
+  ], "author": "Alex Gabriel <alex@alexgabriel.ca>", "contributors": [], "dependencies": {
+    "express": "^4.16.4", "hbs": "^4.0.3", "request": "^2.88.0"
+  }, "devdependencies":{
+    "nodemon": "^1.18.10"
+  }, "description": "Node Web Server", "main": "main.js", "scripts": {
+    "start": "node main.js", "dev": "nodemon main.js -e hbs,js"
+  }, "repository": {
+    "type": "git", "url": "git+https://github.com/alexgabriel-ca/nodewebserver.git"
+  }, "license": "GPL-3.0", "bugs": {
+    "url": "https://github.com/alexgabriel-ca/nodewebserver/issues"
+  }, "homepage": "https://github.com/alexgabriel-ca/nodewebserver#readme"
+}

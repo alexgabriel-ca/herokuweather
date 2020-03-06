@@ -1,0 +1,68 @@
+/*
+    Created on : 2-Mar-2019, 10:09:04 AM
+    Author     : Alex Gabriel <alex@alexgabriel.ca>
+*/
+body{
+	color: black;
+	font-family: arial;
+	font-size: 12px;
+	margin:10px;
+	max-width:600px;
+	padding:10px auto 10px;
+}
+
+footer{
+	text-align:center;
+	color:grey;
+	margin:10px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer a:visited{
+	color:black;
+}
+
+#form{
+	margin:10px;
+	position: relative;
+	left: 200px;
+}
+
+#intro{
+	left:300px;
+	padding-right:25px;
+}
+
+h1{
+	color:grey;
+	font-size: 48px;
+}
+
+#logo{
+	float:left;
+	margin-right:25px;
+	height:200px;
+}
+
+#aboutme{
+	align-content: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+nav{
+	text-align: center;
+	color: grey;
+	margin: 10px;
+}
+
+nav a{
+	text-decoration: underline;
+}
+
+nav a:visited{
+	color:black;
+}
